@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#wan1{
+font-size:40px;
+font-weight:bold;
+position:absolute;
+top:150px;
+left:50px;
+}
+#wan2{
+    font-size:40px;
+    font-weight:bold;
+    position:absolute;
+    top:190px;
+    left:55px;
+}
+#wan3{
+    font-size:20px;
+    position:absolute;
+    top:280px;
+    left:50px;
+}
+#wan4{
+    font-size:20px;
+    position:absolute;
+    top:310px;
+    left:50px;
+}
+#wan5{
+    font-size:20px;
+    position:absolute;
+    top:340px;
+    left:50px;
+}
+#wan6{
+    font-size:20px;
+    position:absolute;
+    top:370px;
+    left:50px;
+}
+#wan7{
+    font-size:20px;
+    position:absolute;
+    top:400px;
+    left:50px;
+}
+#button{
+    height:40px;
+    width:150px;
+     background-color: #20BACA;
+    color: white;
+    border-radius:20px;
+    font-weight:bold;
+    cursor: pointer;
+    position:absolute;
+    top:500px;
+    left:50px;
+    border: none;
+    outline: none;
+}
+#button:hover {
+    background-color: #0056b3;
+}
+#buttons{
+    height:40px;
+    width:150px;
+    background-color: white;
+    color: #20BACA;
+    border-radius:20px;
+    font-weight:bold;
+    cursor: pointer;
+    position:absolute;
+    top:500px;
+    left:490px;
+    border: none;
+    outline: none;
+}
+#buttons:hover {
+    background-color: #0056b3;
+}
+#tu{
+    background-color: #BB843D;
+    width:500px;
+    height:300px;
+    text-align:center;
+    color:white;
+    position:absolute;
+    left:470px;
+    font-size:50px;
+    padding-top:80px;
+    font-weight:bold;
+}
+#tri1{
+    background-color: #20BACA;
+    width:500px;
+    height:300px;
+    text-align:center;
+    color:white;
+    position:absolute;
+    top:300px;
+    left:470px;
+    font-weight:bold;
+    font-size:30px;
+    padding-top:70px;
+    padding-right:170px;
+}
+#tri2{
+    position:absolute;
+    top:420px;
+    left:490px;
+    font-size:20px;
+    color:white;
+}
+#run{
+    position:absolute;
+    left:970px;
+    width:28%;
+    height:600px;
+}
+#foota{
+    position:absolute;
+    top:605px;
+    background-color: #333;
+    color:white;
+    width:100%;
+    height:50px;
+    font-size:20px;
+    padding-top:12px;
+    padding-bottom:5px;
+    text-align:center;
+}
+@media only screen and (max-width:800px){
+    #div1{
+        margin:0px 0 px 0px 0xpx;
+        width:100%;
+    }
+    #wan1{
+        font-size:40px;
+        margin-top:-100px;
+        margin-left:-20px;
+    }
+    #wan2{
+        font-size:40px;
+        margin-top:-140px;
+        margin-left:230px;
+    }
+    #wan3{
+        font-size:19px;
+        margin-left:-25px;
+        margin-top:-150px;
+    }
+    #wan4{
+        margin-left:285px;
+        margin-top:-180px;
+        font-size:19px;
+    }
+    #wan5{
+        margin-left:-25px;
+        margin-top:-180px;
+        font-size:19px;
+    }
+    #wan6{
+        margin-left:335px;
+        margin-top:-210px;
+        font-size:19px;
+    }
+    #wan7{
+        margin-left:-25px;
+        margin-top:-210px;
+        font-size: 20;
+    }
+    #button{
+        margin-top:-270px;
+        margin-left:-25px;
+    }
+    #tu{
+    margin-left:-470px;
+    font-size:40px;
+    width:400px;
+    height:270px;
+    padding-top:90px;
+    margin-top:330px;
+    }
+    #tri1{
+        margin-left:-470px;
+        font-size:40px;
+        width:400px;
+        height:270px;
+        padding-top:20px;
+        padding-right:5px;
+        margin-top:300px;
+        }
+        #tri2{
+            margin-left:-480px;
+            font-size:20px;
+            width:400px;
+            height:270px;
+            margin-top:260px;
+        }
+        #buttons{
+            margin-top:310px;
+            margin-left:-480px;
+        }
+        #run{
+            margin-top:329px;
+            margin-left:-570px;
+            width:370px;
+            height:541px;
+        }
+        #foota{
+            margin-top:270px;
+            height:50px;
+            padding-top:15px;
+            padding-bottom:0;
+        }
+}
+@media only screen and (max-width:500px){
+    #div1{
+        margin:0px 0 px 0px 0xpx;
+        width:100%;
+        text-align:center;
+    }
+    #wan1{
+        font-size:40px;
+        margin-top:-100px;
+        margin-left:-25px;
+    }
+    #wan2{
+        font-size:40px;
+        margin-top:-100px;
+        margin-left:-25px;
+    }
+    #wan3{
+        font-size:22px;
+        margin-left:-25px;
+        margin-top:-130px;
+    }
+    #wan4{
+            font-size:22px;
+            margin-left:-25px;
+            margin-top:-130px;
+    }
+    #wan5{
+        font-size:22px;
+        margin-left:-25px;
+        margin-top:-130px;
+    }
+    #wan6{
+        font-size:22px;
+        margin-left:-25px;
+        margin-top:-130px;
+    }
+    #wan7{
+        font-size:22px;
+        margin-left:-25px;
+        margin-top:-130px;
+    }
+    #button{
+        margin-top:-180px;
+        margin-left:-30px;
+    }
+    #tu{
+        width:100%;
+        margin-top:400px;
+        z-index:1;
+    }
+    #tri1{
+        width:100%;
+        margin-top:370px;
+        z-index:1;
+    }
+    #tri2{
+        font-size:20px;
+        margin-top:330px;
+        margin-left:-440px;
+        z-index:1;
+    }
+    #buttons{
+        margin-top:380px;
+        margin-left:-440px;
+        z-index:1;
+    }
+    #run{
+        width:100%;
+        margin-top:1000px;
+        margin-left:-970px;
+    }
+    #foota{
+        margin-top:935px;
+    }
+}
